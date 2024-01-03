@@ -1,11 +1,19 @@
-import React from 'react';
+// import React from 'react';
 
-interface MainProps {
-  url: string;
-}
+import { Button, Container } from '../styled.components';
 
-const Main: React.FC<MainProps> = ({ url }) => {
-  return <div>{url}</div>;
+// interface MainProps {
+//   url: string;
+// }
+
+const Main = () => {
+  return (
+    <>
+      <Container>
+        <Button primary>Hola</Button>
+      </Container>
+    </>
+  );
 };
 
 export default Main;
